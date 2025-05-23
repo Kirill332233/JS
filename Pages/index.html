@@ -1,0 +1,37 @@
+<!DOCTYPE html5>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шифратор</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Шифратор</h1>
+        
+        <div class="panel">
+            <button class="najat" id="encryptBtn">Зашифровать</button>
+            <div class="info-btn">i</div>
+        </div>
+        
+        <div class="text-container">
+            <div class="text-shifr">
+                <div>Оригинал</div>
+                <textarea id="inputText"></textarea>
+            </div>
+            
+            <div class="text-no-shifr">
+                <div>Новый</div>
+                <textarea id="outputText" readonly></textarea>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar hide">
+        <button class="toggle-btn">≡</button>
+        <p id="put"></p>
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>
