@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everything Shop</title>
+    <link rel="stylesheet" href="/Style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <button id="filterBtn" class="filter-button">Filter</button>
+            <h1>Everything Shop</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Product search...">
+                <button id="searchBtn">Search</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="products-container" id="productsContainer"></div>
+        <div class="pagination">
+            <button>Back</button>
+            <button class="current">4</button>
+            <button>Further</button>
+        </div>
+    </main>
+    <script src="/Script.js"></script>
+</body>
+<div id="productModal" class="modal">
+    <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <div class="modal-body" id="modalBody">
+        </div>
+    </div>
+</div>
+</html>
